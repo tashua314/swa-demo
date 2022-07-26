@@ -3,4 +3,5 @@
   "root": "build/",
   "routes": {
     "/*": "build/index.js"
+  }
 }
