@@ -12,7 +12,7 @@ const config = {
 		adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: null
+      fallback: true
     }),
 		// Override http methods in the Todo forms
 		methodOverride: {
