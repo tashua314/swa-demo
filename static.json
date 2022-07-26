@@ -1,4 +1,6 @@
 {
   "basic_auth": true,
-  "root": "build/"
+  "root": "build/",
+  "routes": {
+    "/*": "build/index.js"
 }
