@@ -1,6 +1,8 @@
 {
   "basic_auth": true,
-  "routes": {
-    "/**/*": "build/index.js"
+  "proxies": {
+    "/": {
+      "origin": "https://place-id-converter-git-master-tashua314.vercel.app"
+    }
   }
 }
